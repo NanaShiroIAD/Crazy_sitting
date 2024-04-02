@@ -342,6 +342,60 @@
         "name": "panier_rouge.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LEVEL2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LEVEL2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_tricolor_vertpng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_tricolor_vertpng.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_roux_cacherpng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_roux_cacherpng.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panier_vert.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panier_vert.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_roux_vertpng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_roux_vertpng.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -357,6 +411,24 @@
       "name": "play",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "Compteur",
+      "type": "number",
+      "value": 2
+    },
+    {
+      "folded": true,
+      "name": "balle",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "tg",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -371,6 +443,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
     }
   ],
   "externalEvents": [],

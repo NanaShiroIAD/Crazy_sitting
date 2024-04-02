@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "missions",
-  "name": "missions",
+  "mangledName": "level2",
+  "name": "level2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,22 +18,29 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.158277956128494,
+    "zoomFactor": 1.1204945113525884,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "compteur",
+      "type": "string",
+      "value": "2"
+    }
+  ],
   "instances": [
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "missions",
-      "persistentUuid": "394d5421-2bbd-4a42-8393-cc74c32b85c4",
+      "name": "level2",
+      "persistentUuid": "02fdd169-7f21-4720-b641-e92ac12ae66e",
       "width": 0,
-      "x": -1,
-      "y": 0,
+      "x": 0,
+      "y": 1,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -41,14 +48,31 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
       "layer": "",
-      "name": "level2",
-      "persistentUuid": "4b0d2fa5-885a-4d7f-8d70-36b9049cf1b1",
-      "width": 0,
-      "x": 140,
-      "y": 129,
+      "name": "cat1",
+      "persistentUuid": "2a4eed65-8c01-46f8-beee-401f4d7d3741",
+      "width": 60,
+      "x": 399,
+      "y": 175,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 67,
+      "layer": "",
+      "name": "cat2",
+      "persistentUuid": "0ebdb249-a5f3-4407-9fb4-0a9fb79f982d",
+      "width": 50,
+      "x": 406,
+      "y": 394,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -56,14 +80,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
       "layer": "",
-      "name": "level1",
-      "persistentUuid": "b31d32ed-519d-4268-98be-70e5c8364ede",
-      "width": 0,
-      "x": 15,
-      "y": 129,
+      "name": "panier",
+      "persistentUuid": "a7e7f464-72da-480a-b593-b9b91bcf66ef",
+      "width": 82,
+      "x": 1,
+      "y": 371,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -74,11 +99,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "level3",
-      "persistentUuid": "d5d830a2-f042-44d3-8d6b-bbf8448a22ed",
+      "name": "NewText2",
+      "persistentUuid": "c2c18cc2-29ec-4427-925d-66c8121be574",
       "width": 0,
-      "x": 265,
-      "y": 128,
+      "x": 448,
+      "y": 43,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -89,11 +114,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "level4",
-      "persistentUuid": "9477b31d-22ab-475e-8581-83731a532421",
+      "name": "NewText",
+      "persistentUuid": "aedce7a3-c0b2-4db6-8398-c58465f4867c",
       "width": 0,
-      "x": 385,
-      "y": 127,
+      "x": 448,
+      "y": 43,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,14 +126,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 26,
       "layer": "",
-      "name": "level5",
-      "persistentUuid": "d714d32f-ae5a-4ddd-8681-7ef5e85f7058",
-      "width": 0,
-      "x": 15,
-      "y": 258,
+      "name": "balle",
+      "persistentUuid": "d2ea6221-f0d5-4436-9bd6-16fef7d1bae1",
+      "width": 26,
+      "x": 293,
+      "y": 371,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,171 +142,22 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 103,
       "layer": "",
-      "name": "level6",
-      "persistentUuid": "662151b8-5833-4d94-893d-2f00b8b400a9",
-      "width": 0,
-      "x": 143,
-      "y": 257,
+      "name": "cat2up",
+      "persistentUuid": "f7b31ce9-e5f0-4dd0-8319-724a4f60d26c",
+      "width": 77,
+      "x": 394,
+      "y": 358,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "level7",
-      "persistentUuid": "8aca930c-c63f-4946-9d30-9d09905aba20",
-      "width": 0,
-      "x": 266,
-      "y": 256,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "level8",
-      "persistentUuid": "3bcd6b7a-97b8-4d87-9bbc-bb1459648691",
-      "width": 0,
-      "x": 386,
-      "y": 255,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "missions",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Menu_levels.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 512,
-                        "y": 0
-                      },
-                      {
-                        "x": 512,
-                        "y": 448
-                      },
-                      {
-                        "x": 0,
-                        "y": 448
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "level1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "level_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 92,
-                        "y": 0
-                      },
-                      {
-                        "x": 92,
-                        "y": 72
-                      },
-                      {
-                        "x": 16,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -301,7 +178,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level_2.png",
+                  "image": "LEVEL2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -317,20 +194,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
+                        "x": 0,
                         "y": 0
                       },
                       {
-                        "x": 92,
+                        "x": 512,
                         "y": 0
                       },
                       {
-                        "x": 92,
-                        "y": 72
+                        "x": 512,
+                        "y": 448
                       },
                       {
-                        "x": 16,
-                        "y": 72
+                        "x": 0,
+                        "y": 448
                       }
                     ]
                   ]
@@ -344,7 +221,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "level3",
+      "name": "cat1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -361,7 +238,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level_3.png",
+                  "image": "Chat_tricolor_vertpng.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -377,20 +254,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 28,
+                        "y": 21
                       },
                       {
-                        "x": 92,
-                        "y": 0
+                        "x": 123,
+                        "y": 21
                       },
                       {
-                        "x": 92,
-                        "y": 72
+                        "x": 123,
+                        "y": 196
                       },
                       {
-                        "x": 16,
-                        "y": 72
+                        "x": 28,
+                        "y": 196
                       }
                     ]
                   ]
@@ -404,7 +281,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "level4",
+      "name": "cat2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -421,7 +298,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level_4.png",
+                  "image": "Chat_roux_cacherpng.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -437,20 +314,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 30,
+                        "y": 47
                       },
                       {
-                        "x": 92,
-                        "y": 0
+                        "x": 120,
+                        "y": 47
                       },
                       {
-                        "x": 92,
-                        "y": 72
+                        "x": 120,
+                        "y": 134
                       },
                       {
-                        "x": 16,
-                        "y": 72
+                        "x": 30,
+                        "y": 134
                       }
                     ]
                   ]
@@ -464,7 +341,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "level5",
+      "name": "panier",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -481,7 +358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level_5.png",
+                  "image": "panier_vert.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -497,20 +374,163 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 2,
+                        "y": 30
                       },
                       {
-                        "x": 92,
-                        "y": 0
+                        "x": 95,
+                        "y": 30
                       },
                       {
-                        "x": 92,
-                        "y": 72
+                        "x": 95,
+                        "y": 82
                       },
                       {
-                        "x": 16,
-                        "y": 72
+                        "x": 2,
+                        "y": 82
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "X1",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "X1",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "X1\n",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "X1\n",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "balle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 25
+                      },
+                      {
+                        "x": 44,
+                        "y": 25
+                      },
+                      {
+                        "x": 44,
+                        "y": 48
+                      },
+                      {
+                        "x": 22,
+                        "y": 48
                       }
                     ]
                   ]
@@ -524,7 +544,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "level6",
+      "name": "cat2up",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -541,7 +561,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "level_6.png",
+                  "image": "Chat_roux_vertpng.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -557,140 +577,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 28,
+                        "y": 21
                       },
                       {
-                        "x": 92,
-                        "y": 0
+                        "x": 123,
+                        "y": 21
                       },
                       {
-                        "x": 92,
-                        "y": 72
+                        "x": 123,
+                        "y": 196
                       },
                       {
-                        "x": 16,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "level7",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "level_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 92,
-                        "y": 0
-                      },
-                      {
-                        "x": 92,
-                        "y": 72
-                      },
-                      {
-                        "x": 16,
-                        "y": 72
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "level8",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "level_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 92,
-                        "y": 0
-                      },
-                      {
-                        "x": 92,
-                        "y": 72
-                      },
-                      {
-                        "x": 16,
-                        "y": 72
+                        "x": 28,
+                        "y": 196
                       }
                     ]
                   ]
@@ -706,35 +606,170 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "missions"
-      },
-      {
-        "objectName": "level1"
-      },
-      {
         "objectName": "level2"
       },
       {
-        "objectName": "level3"
+        "objectName": "cat1"
       },
       {
-        "objectName": "level4"
+        "objectName": "cat2"
       },
       {
-        "objectName": "level5"
+        "objectName": "cat2up"
       },
       {
-        "objectName": "level6"
+        "objectName": "panier"
       },
       {
-        "objectName": "level7"
+        "objectName": "NewText"
       },
       {
-        "objectName": "level8"
+        "objectName": "NewText2"
+      },
+      {
+        "objectName": "balle"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewText2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cat2up"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "cat1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cat1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewText",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "NewText"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "panier",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewText"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -748,7 +783,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "level1",
+            "balle",
             "",
             "",
             ""
@@ -767,12 +802,10 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "Cache"
           },
           "parameters": [
-            "",
-            "\"level1\"",
-            ""
+            "balle"
           ]
         }
       ]
@@ -782,10 +815,19 @@
       "conditions": [
         {
           "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "level1",
+            "cat2",
             "",
             "",
             ""
@@ -801,11 +843,19 @@
       "actions": [
         {
           "type": {
-            "value": "ChangeColor"
+            "value": "Cache"
           },
           "parameters": [
-            "level1",
-            "\"92;92;92\""
+            "cat2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "balle",
+            "True"
           ]
         }
       ]
@@ -813,33 +863,146 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "tg",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "cat2up",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewText",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "tg",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "cat2up"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "cat2up",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cat2up"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "panier",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "inverted": true,
-            "value": "SourisSurObjet"
+            "value": "Visible"
           },
           "parameters": [
-            "level1",
-            "",
-            "",
-            ""
+            "cat2up"
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "MouseButtonPressed"
           },
-          "parameters": []
+          "parameters": [
+            "",
+            "Left"
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "ChangeColor"
+            "value": "Cache"
           },
           "parameters": [
-            "level1",
-            "\"255;255;255\""
+            "NewText2"
           ]
         }
       ]
@@ -915,6 +1078,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
