@@ -1,0 +1,380 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "300bbccc-fad4-4bfc-bd81-bea21504af3b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "jsp",
+    "description": "",
+    "author": "",
+    "windowWidth": 512,
+    "windowHeight": 448,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "menu.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu.png\",\"extension\":\".png\"}",
+        "name": "menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu2.png\",\"extension\":\".png\"}",
+        "name": "menu2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu3.png\",\"extension\":\".png\"}",
+        "name": "menu3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu4.png\",\"extension\":\".png\"}",
+        "name": "menu4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu5.png\",\"extension\":\".png\"}",
+        "name": "menu5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu6.png\",\"extension\":\".png\"}",
+        "name": "menu6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/menu11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "menu11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bouton_play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bouton_play.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Menu_levels.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu_levels.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Desktop/items/Chat_tigré.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\items\\Chat_tigré.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chat_tigré_rouge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chat_tigré_rouge.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panier_rouge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panier_rouge.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "play",
+      "type": "number",
+      "value": 1
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/missions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level1"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
