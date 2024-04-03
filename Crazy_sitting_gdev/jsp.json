@@ -396,6 +396,409 @@
         "name": "Chat_roux_vertpng.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu_niv_suivant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "menu_niv_suivant.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bubble.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bubble.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/12254a94cf3e8dbc4bcccadf4f2f761ee0736f0abe7405c4a419fab822ba90ca_Bubble.png",
+          "name": "Bubble.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Candy_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "79f4fff6f02a0e71aa98f02b26fccac365ee8053e6ba317854ce8da684e590d2_Candy_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/79f4fff6f02a0e71aa98f02b26fccac365ee8053e6ba317854ce8da684e590d2_Candy_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Snow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Snow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/29b9ec523484e55b183b3e008d942effecb6175042c5192136c78cc750120781_Snow.png",
+          "name": "Snow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Candy_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cd1f311a17bb69a625497865ec35766d85bb7bc0f8c134acee7d81974849b780_Candy_Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/cd1f311a17bb69a625497865ec35766d85bb7bc0f8c134acee7d81974849b780_Candy_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "menu_niv_suivant2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"menu_niv_suivant2.png\",\"extension\":\".png\"}",
+        "name": "menu_niv_suivant2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bouton_play2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bouton_play2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logo_exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo_exit.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite_tel_sans_icone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite_tel_sans_icone.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/return.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "return",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound_on.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"sound_on.png\",\"extension\":\".png\"}",
+        "name": "sound_on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "music_on.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"music_on.png\",\"extension\":\".png\"}",
+        "name": "music_on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "music_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "music_off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound_off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sound_off2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sound_off2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "music_off2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "music_off2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite_tel_sans_icone2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite_tel_sans_icone2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "icone_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"level4.png\",\"extension\":\".png\"}",
+        "name": "level4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_noir_bleupng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_noir_bleupng.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_roux_bleupng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_roux_bleupng.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_tigre_bleupng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_tigre_bleupng.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chat_caché.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chat_caché.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panier_bleu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panier_bleu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panier_vert2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panier_vert2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/porte.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "porte",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "vitre.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"vitre.png\",\"extension\":\".png\"}",
+        "name": "vitre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level3.v2png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level3.v2png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "level3.v2png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level3.v2png2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "canette.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "canette.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_tigre_vertpng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_tigre_vertpng.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -426,7 +829,7 @@
     },
     {
       "folded": true,
-      "name": "tg",
+      "name": "chatdebout",
       "type": "boolean",
       "value": false
     }
@@ -447,6 +850,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/bravo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
     }
   ],
   "externalEvents": [],

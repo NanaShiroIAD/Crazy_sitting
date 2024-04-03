@@ -48,7 +48,7 @@
       "persistentUuid": "4b0d2fa5-885a-4d7f-8d70-36b9049cf1b1",
       "width": 0,
       "x": 140,
-      "y": 129,
+      "y": 112,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,7 +63,7 @@
       "persistentUuid": "b31d32ed-519d-4268-98be-70e5c8364ede",
       "width": 0,
       "x": 15,
-      "y": 129,
+      "y": 112,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -78,7 +78,7 @@
       "persistentUuid": "d5d830a2-f042-44d3-8d6b-bbf8448a22ed",
       "width": 0,
       "x": 265,
-      "y": 128,
+      "y": 111,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -93,7 +93,7 @@
       "persistentUuid": "9477b31d-22ab-475e-8581-83731a532421",
       "width": 0,
       "x": 385,
-      "y": 127,
+      "y": 110,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "level2",
       "type": "Sprite",
@@ -325,12 +325,16 @@
                         "y": 0
                       },
                       {
-                        "x": 92,
-                        "y": 72
+                        "x": 91,
+                        "y": 62
+                      },
+                      {
+                        "x": 53,
+                        "y": 64
                       },
                       {
                         "x": 16,
-                        "y": 72
+                        "y": 62.5
                       }
                     ]
                   ]
@@ -737,7 +741,19 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"time\"",
+            ">=",
+            "3"
+          ]
+        }
+      ],
       "actions": []
     },
     {
@@ -843,6 +859,219 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"level2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "level2",
+            "\"92;92;92\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "level2",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "level3",
+            "\"92;92;92\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "level3",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"level3\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

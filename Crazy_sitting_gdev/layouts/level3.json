@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "level2",
-  "name": "level2",
+  "mangledName": "level3",
+  "name": "level3",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1204945113525884,
+    "zoomFactor": 0.8883586397042469,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,18 +28,6 @@
       "name": "compteur",
       "type": "number",
       "value": 0
-    },
-    {
-      "folded": true,
-      "name": "Variable",
-      "type": "string",
-      "value": ""
-    },
-    {
-      "folded": true,
-      "name": "timer",
-      "type": "boolean",
-      "value": false
     }
   ],
   "instances": [
@@ -48,10 +36,10 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "level2",
-      "persistentUuid": "02fdd169-7f21-4720-b641-e92ac12ae66e",
+      "name": "level3",
+      "persistentUuid": "01b781b0-60c9-4a2b-9ebf-233e712394ac",
       "width": 0,
-      "x": 0,
+      "x": -1,
       "y": 1,
       "zOrder": 1,
       "numberProperties": [],
@@ -62,13 +50,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 80,
+      "height": 77,
       "layer": "",
-      "name": "cat1",
-      "persistentUuid": "2a4eed65-8c01-46f8-beee-401f4d7d3741",
-      "width": 60,
-      "x": 399,
-      "y": 175,
+      "name": "chat1",
+      "persistentUuid": "f794ecdb-544d-4980-84de-0a118d47d3c5",
+      "width": 58,
+      "x": 103,
+      "y": 280,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -78,13 +66,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 67,
+      "height": 62,
       "layer": "",
-      "name": "cat2",
-      "persistentUuid": "0ebdb249-a5f3-4407-9fb4-0a9fb79f982d",
-      "width": 50,
-      "x": 406,
-      "y": 394,
+      "name": "chat2",
+      "persistentUuid": "90ceaf96-0669-42fa-9a92-d02916f4629c",
+      "width": 46,
+      "x": 379,
+      "y": 190,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,13 +82,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 73,
+      "height": 61,
       "layer": "",
-      "name": "panier",
-      "persistentUuid": "a7e7f464-72da-480a-b593-b9b91bcf66ef",
-      "width": 82,
-      "x": 1,
-      "y": 371,
+      "name": "chat3",
+      "persistentUuid": "f18992e2-20c3-4a09-91c4-3eccb6caff0d",
+      "width": 37,
+      "x": 286,
+      "y": 335,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -109,15 +97,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 26,
+      "depth": 1,
+      "height": 72,
       "layer": "",
-      "name": "balle",
-      "persistentUuid": "d2ea6221-f0d5-4436-9bd6-16fef7d1bae1",
-      "width": 26,
-      "x": 293,
-      "y": 371,
-      "zOrder": 7,
+      "name": "panier1",
+      "persistentUuid": "9b878160-ad81-4b81-8b24-80d53ea39c89",
+      "width": 80,
+      "x": 11,
+      "y": 374,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -126,14 +114,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 103,
+      "height": 55,
       "layer": "",
-      "name": "cat2up",
-      "persistentUuid": "f7b31ce9-e5f0-4dd0-8319-724a4f60d26c",
-      "width": 77,
-      "x": 394,
-      "y": 358,
-      "zOrder": 8,
+      "name": "panier2",
+      "persistentUuid": "34b46f0e-d146-4862-87a2-097b6e37dcbc",
+      "width": 61,
+      "x": 387,
+      "y": 77,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -143,12 +131,60 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "abcd47c3-00e0-4f99-bc57-267e261dc241",
+      "name": "compteur1",
+      "persistentUuid": "ac78d777-236a-4e0c-b018-2022418b48ab",
       "width": 0,
-      "x": 461,
-      "y": 55,
+      "x": 468,
+      "y": 50,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 100,
+      "layer": "",
+      "name": "porte",
+      "persistentUuid": "14b3f7cb-06d5-4fc9-833e-4b69c87c8ebf",
+      "width": 100,
+      "x": 378,
+      "y": 194,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 36,
+      "layer": "",
+      "name": "canette",
+      "persistentUuid": "a38c0f84-a301-41b1-9bf8-6433d95e6e4a",
+      "width": 40,
+      "x": 434,
+      "y": 212,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 95,
+      "layer": "",
+      "name": "chat4",
+      "persistentUuid": "2eaa4877-56c6-4b8a-abc2-264cdf579c00",
+      "width": 71,
+      "x": 270,
+      "y": 341,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -158,13 +194,62 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "level2",
+      "name": "level3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
+        {
+          "name": "level3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 448
+                      },
+                      {
+                        "x": 0,
+                        "y": 448
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "",
           "useMultipleDirections": false,
@@ -175,7 +260,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "LEVEL2.png",
+                  "image": "level3.v2png2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -218,7 +303,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "cat1",
+      "name": "chat1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -235,7 +320,67 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Chat_tricolor_vertpng.png",
+                  "image": "Chat_noir_bleupng.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 21
+                      },
+                      {
+                        "x": 124,
+                        "y": 21
+                      },
+                      {
+                        "x": 124,
+                        "y": 197
+                      },
+                      {
+                        "x": 28,
+                        "y": 197
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "chat2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chat_roux_bleupng.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -278,7 +423,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "cat2",
+      "name": "chat3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -295,7 +440,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Chat_roux_cacherpng.png",
+                  "image": "chat_caché.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -311,20 +456,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 30,
-                        "y": 47
+                        "x": 5,
+                        "y": 9
                       },
                       {
-                        "x": 120,
-                        "y": 47
+                        "x": 97,
+                        "y": 9
                       },
                       {
-                        "x": 120,
-                        "y": 134
+                        "x": 97,
+                        "y": 60
                       },
                       {
-                        "x": 30,
-                        "y": 134
+                        "x": 5,
+                        "y": 60
                       }
                     ]
                   ]
@@ -338,7 +483,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "panier",
+      "name": "panier1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -355,7 +500,67 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "panier_vert.png",
+                  "image": "panier_bleu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 30
+                      },
+                      {
+                        "x": 95,
+                        "y": 30
+                      },
+                      {
+                        "x": 95,
+                        "y": 82
+                      },
+                      {
+                        "x": 2,
+                        "y": 82
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "panier2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "panier_vert2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -399,14 +604,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "compteur1",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "X1",
+      "string": "x1",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -429,7 +634,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "X1",
+        "text": "x1",
         "font": "",
         "textAlignment": "left",
         "characterSize": 20,
@@ -439,7 +644,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "balle",
+      "name": "porte",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -447,7 +652,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "porte",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -457,128 +662,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 22,
-                        "y": 25
-                      },
-                      {
-                        "x": 44,
-                        "y": 25
-                      },
-                      {
-                        "x": 44,
-                        "y": 48
-                      },
-                      {
-                        "x": 22,
-                        "y": 48
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "cat2up",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chat_roux_vertpng.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 21
-                      },
-                      {
-                        "x": 123,
-                        "y": 21
-                      },
-                      {
-                        "x": 123,
-                        "y": 196
-                      },
-                      {
-                        "x": 28,
-                        "y": 196
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "vitre.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -598,16 +682,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 150,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 150,
+                        "y": 200
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 200
                       }
                     ]
                   ]
@@ -621,7 +705,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "menu",
+      "name": "canette",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -638,7 +722,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Sprite_tel_sans_icone2.png",
+                  "image": "canette.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -654,20 +738,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 46,
-                        "y": 29
+                        "x": 23,
+                        "y": 23
                       },
                       {
-                        "x": 154,
-                        "y": 29
+                        "x": 67,
+                        "y": 23
                       },
                       {
-                        "x": 154,
-                        "y": 180
+                        "x": 67,
+                        "y": 72
                       },
                       {
-                        "x": 46,
-                        "y": 180
+                        "x": 23,
+                        "y": 72
                       }
                     ]
                   ]
@@ -681,7 +765,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "levels",
+      "name": "chat4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -698,7 +782,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "icone_7.png",
+                  "image": "Chat_tigre_vertpng.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -714,211 +798,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 0
+                        "x": 27,
+                        "y": 21
                       },
                       {
-                        "x": 34,
-                        "y": 0
+                        "x": 123,
+                        "y": 21
                       },
                       {
-                        "x": 34,
-                        "y": 23
+                        "x": 123,
+                        "y": 196
                       },
                       {
-                        "x": 9,
-                        "y": 23
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "settings",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "icone_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 34,
-                        "y": 0
-                      },
-                      {
-                        "x": 34,
-                        "y": 23
-                      },
-                      {
-                        "x": 9,
-                        "y": 23
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "indice",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "icone_9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 34,
-                        "y": 0
-                      },
-                      {
-                        "x": 34,
-                        "y": 23
-                      },
-                      {
-                        "x": 9,
-                        "y": 23
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Menu2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "icone_10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 34,
-                        "y": 0
-                      },
-                      {
-                        "x": 34,
-                        "y": 23
-                      },
-                      {
-                        "x": 9,
-                        "y": 23
+                        "x": 27,
+                        "y": 196
                       }
                     ]
                   ]
@@ -934,46 +827,34 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "level2"
+        "objectName": "level3"
       },
       {
-        "objectName": "cat1"
+        "objectName": "chat4"
       },
       {
-        "objectName": "cat2"
+        "objectName": "panier2"
       },
       {
-        "objectName": "cat2up"
+        "objectName": "chat1"
       },
       {
-        "objectName": "panier"
+        "objectName": "chat2"
       },
       {
-        "objectName": "NewText"
+        "objectName": "chat3"
       },
       {
-        "objectName": "balle"
+        "objectName": "panier1"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "compteur1"
       },
       {
-        "objectName": "menu"
+        "objectName": "porte"
       },
       {
-        "objectName": "levels"
-      },
-      {
-        "objectName": "settings"
-      },
-      {
-        "objectName": "indice"
-      },
-      {
-        "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "Menu2"
+        "objectName": "canette"
       }
     ]
   },
@@ -988,7 +869,44 @@
           "parameters": [
             ""
           ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "level3",
+            "Animation",
+            "=",
+            "0"
+          ]
         },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "porte",
+            "Opacity",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "chat4"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
             "value": "VarScene"
@@ -1006,17 +924,294 @@
             "value": "Cache"
           },
           "parameters": [
-            "NewText"
+            "compteur1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "chat1",
+            "",
+            "",
+            ""
           ]
         },
         {
           "type": {
-            "value": "DebuggerTools::ConsoleLog"
+            "value": "MouseButtonPressed"
           },
           "parameters": [
-            "\"marche pas\"",
-            "\"info\"",
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "chat1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "compteur",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "compteur",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "compteur1",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "panier1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "chat1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "compteur",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "porte",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "level3",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "porte",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "chat2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "chat2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "chat2"
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "porte"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "chat2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "compteur",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "panier1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "chat2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "compteur",
+            "=",
+            "0"
           ]
         }
       ]
@@ -1024,13 +1219,47 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "canette",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
             "value": "Cache"
           },
           "parameters": [
-            "cat2up"
+            "canette"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "chat2"
           ]
         }
       ]
@@ -1043,7 +1272,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "cat1",
+            "chat3",
             "",
             "",
             ""
@@ -1060,9 +1289,12 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "inverted": true,
+            "value": "Visible"
           },
-          "parameters": []
+          "parameters": [
+            "canette"
+          ]
         }
       ],
       "actions": [
@@ -1071,48 +1303,15 @@
             "value": "Cache"
           },
           "parameters": [
-            "cat1"
+            "chat3"
           ]
         },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "compteur",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "compteur",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
         {
           "type": {
             "value": "Montre"
           },
           "parameters": [
-            "NewText",
+            "chat4",
             ""
           ]
         }
@@ -1123,18 +1322,10 @@
       "conditions": [
         {
           "type": {
-            "value": "Visible"
-          },
-          "parameters": [
-            "NewText"
-          ]
-        },
-        {
-          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "panier",
+            "chat4",
             "",
             "",
             ""
@@ -1148,115 +1339,6 @@
             "",
             "Left"
           ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "compteur",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "compteur",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "NewText"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "balle",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "balle"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "cat2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         },
         {
           "type": {
@@ -1264,7 +1346,16 @@
             "value": "Visible"
           },
           "parameters": [
-            "balle"
+            "canette"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "chat3"
           ]
         }
       ],
@@ -1274,174 +1365,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "cat2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "balle",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "balle",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "chatdebout",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "chatdebout",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "timer",
-            "False"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "cat2up",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "timer",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"debout\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "cat2up",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "chatdebout",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "compteur",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "timer",
-            "True"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "cat2up"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "chatdebout",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "balle",
-            "False"
+            "chat4"
           ]
         },
         {
@@ -1461,54 +1385,13 @@
       "conditions": [
         {
           "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "compteur",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "NewText",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "panier",
+            "panier2",
             "",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "Visible"
-          },
-          "parameters": [
-            "cat2up"
           ]
         },
         {
@@ -1522,20 +1405,15 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "inverted": true,
+            "value": "Visible"
           },
-          "parameters": []
+          "parameters": [
+            "chat4"
+          ]
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "NewText"
-          ]
-        },
         {
           "type": {
             "value": "ModVarScene"
@@ -1557,7 +1435,7 @@
             "value": "Visible"
           },
           "parameters": [
-            "cat2"
+            "chat4"
           ]
         },
         {
@@ -1566,7 +1444,16 @@
             "value": "Visible"
           },
           "parameters": [
-            "cat1"
+            "chat2"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "chat1"
           ]
         },
         {
@@ -1574,7 +1461,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "panier",
+            "panier2",
             "",
             "",
             ""
