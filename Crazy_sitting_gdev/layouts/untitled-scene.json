@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8141881203709911,
+    "zoomFactor": 0.870023285985729,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -50,7 +50,7 @@
       "persistentUuid": "d7e0fd6e-5bf0-49dc-bc9e-92f884dcbc65",
       "width": 149,
       "x": 175,
-      "y": 70,
+      "y": 123,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -858,7 +858,20 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Cute Background Music No Copyright  Cute Copyright Free Music.mp3",
+            "",
+            "70",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -958,8 +971,20 @@
           },
           "parameters": [
             "",
-            "\"missions\"",
+            "\"TUTO\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "pop sound effect cute4.mp3",
+            "",
+            "40",
+            "1"
           ]
         }
       ]

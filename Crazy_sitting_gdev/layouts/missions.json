@@ -48,7 +48,7 @@
       "persistentUuid": "4b0d2fa5-885a-4d7f-8d70-36b9049cf1b1",
       "width": 0,
       "x": 140,
-      "y": 112,
+      "y": 113,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -122,7 +122,7 @@
       "name": "level6",
       "persistentUuid": "662151b8-5833-4d94-893d-2f00b8b400a9",
       "width": 0,
-      "x": 143,
+      "x": 141,
       "y": 257,
       "zOrder": 8,
       "numberProperties": [],
@@ -744,17 +744,36 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "DepartScene"
           },
           "parameters": [
-            "",
-            "\"time\"",
-            ">=",
-            "3"
+            " the"
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Cute Background Music No Copyright.mp3",
+            "",
+            "70",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -777,6 +796,17 @@
           "parameters": [
             "",
             "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
           ]
         }
       ],
@@ -790,6 +820,18 @@
             "\"level1\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "PSX -  Press Button Sound Effects (Download Sound) (1).mp3",
+            "",
+            "40",
+            "1\n"
+          ]
         }
       ]
     },
@@ -812,6 +854,17 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -846,6 +899,17 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -881,6 +945,17 @@
           "parameters": [
             "",
             "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
           ]
         }
       ],
@@ -894,6 +969,18 @@
             "\"level2\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "PSX -  Press Button Sound Effects (Download Sound) (1).mp3",
+            "",
+            "40",
+            "1\n"
+          ]
         }
       ]
     },
@@ -916,6 +1003,17 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -950,6 +1048,17 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -983,6 +1092,17 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -1017,6 +1137,17 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -1053,6 +1184,17 @@
             "",
             "Left"
           ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
         }
       ],
       "actions": [
@@ -1064,6 +1206,167 @@
             "",
             "\"level3\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "PSX -  Press Button Sound Effects (Download Sound) (1).mp3",
+            "",
+            "40",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "level4",
+            "\"92;92;92\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "level4",
+            "\"255;255;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "level4",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"buttons\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"level4\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "PSX -  Press Button Sound Effects (Download Sound) (1).mp3",
+            "",
+            "40",
+            "1\n"
           ]
         }
       ]

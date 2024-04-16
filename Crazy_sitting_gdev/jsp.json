@@ -799,6 +799,247 @@
         "name": "Chat_tigre_vertpng.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Level5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chat_noir_cacherpng.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chat_noir_cacherpng.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "panier_rouge2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panier_rouge2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Cute Background Music No Copyright  Cute Copyright Free Music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cute Background Music No Copyright  Cute Copyright Free Music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cute Background Music No Copyright.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cute Background Music No Copyright.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "No Copyright Music  Cute Background Music (cute, funny, bgm).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "No Copyright Music  Cute Background Music (cute, funny, bgm).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "No Copyright Cute Background Music  Cute Copyright Free Music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "No Copyright Cute Background Music  Cute Copyright Free Music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "No Copyright Cute Background Music  Cute Copyright Free Music2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "No Copyright Cute Background Music  Cute Copyright Free Music2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "pop sound effect cute.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pop sound effect cute.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "pop sound effect cute2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pop sound effect cute2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "pop sound effect cute3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pop sound effect cute3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "pop sound effect cute4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "pop sound effect cute4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Meow Sound Effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Meow Sound Effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "PSX -  Press Button Sound Effects (Download Sound) (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "PSX -  Press Button Sound Effects (Download Sound) (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pot.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Drawer Opening Sound Effect.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Drawer Opening Sound Effect.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "[no copyright music] cute and lovely  cute background music  aesthetic  funny  bright  2021.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[no copyright music] cute and lovely  cute background music  aesthetic  funny  bright  2021.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cats (Sped Up).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cats (Sped Up).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TUTO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TUTO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "[no copyright music] Mushrooms Life cute background music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "[no copyright music] Mushrooms Life cute background music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "no copyright music  cute lovely couple background music (bgm, aesthetic, vlog).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "no copyright music  cute lovely couple background music (bgm, aesthetic, vlog).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -832,12 +1073,22 @@
       "name": "chatdebout",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "ball",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tuto"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -858,6 +1109,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level4"
     }
   ],
   "externalEvents": [],

@@ -1018,6 +1018,18 @@
             "\"info\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "[no copyright music] cute and lovely  cute background music  aesthetic  funny  bright  2021.mp3",
+            "",
+            "70",
+            ""
+          ]
         }
       ]
     },
@@ -1082,6 +1094,18 @@
             "compteur",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Meow Sound Effect.mp3",
+            "",
+            "30",
+            "1.5"
           ]
         }
       ]
@@ -1165,6 +1189,18 @@
             "compteur",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "pop sound effect cute4.mp3",
+            "",
+            "50",
+            "1"
           ]
         }
       ]
@@ -1284,6 +1320,18 @@
           "parameters": [
             "balle",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Meow Sound Effect.mp3",
+            "",
+            "30",
+            "1.5"
           ]
         }
       ]
@@ -1453,6 +1501,18 @@
             "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Meow Sound Effect.mp3",
+            "",
+            "30",
+            "1.5"
+          ]
         }
       ]
     },
@@ -1599,6 +1659,18 @@
             "",
             "\"bravo\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "pop sound effect cute4.mp3",
+            "",
+            "50",
+            "1"
           ]
         }
       ]

@@ -1177,6 +1177,15 @@
         },
         {
           "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "settings",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -1254,6 +1263,18 @@
           "parameters": [
             "music_on"
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "No Copyright Cute Background Music  Cute Copyright Free Music2.mp3",
+            "",
+            "70",
+            "1"
+          ]
         }
       ]
     },
@@ -1279,6 +1300,12 @@
             "",
             "Left"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1297,6 +1324,18 @@
           "parameters": [
             "counter",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Meow Sound Effect.mp3",
+            "",
+            "30",
+            "1.5"
           ]
         }
       ]
@@ -1348,6 +1387,18 @@
             "",
             "\"bravo\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "pop sound effect cute4.mp3",
+            "",
+            "50",
+            "1"
           ]
         }
       ]
@@ -1451,6 +1502,15 @@
           },
           "parameters": [
             "pause",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "settings",
             "False"
           ]
         }
@@ -2246,6 +2306,54 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "menu2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Untitled scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
